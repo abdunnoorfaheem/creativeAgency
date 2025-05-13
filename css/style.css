@@ -1,0 +1,82 @@
+/* common css style start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Inter", sans-serif;
+    outline: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* common css style end */
+
+/* header style start */
+#headerPart{
+    padding: 30px 0;
+   
+}
+
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.menu ul li a{
+    color: #181818;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.4s;
+    
+}
+
+.menu ul li a:hover{
+    color: #5956E8;
+}
+
+.btn a{
+    padding: 18px 25px;
+    background: #5956E8;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* header style end */
+
+
+
+
+/* header style start */
+/* header style end */
+/* header style start */
+/* header style end */
+/* header style start */
+/* header style end */
+/* header style start */
+/* header style end */
+/* header style start */
+/* header style end */
+/* header style start */
+/* header style end */
+/* header style start */
+/* header style end */
+/* header style start */
+/* header style end */
