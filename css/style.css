@@ -57,6 +57,8 @@ h1,h2,h3,h4,h5,h6,p{
     background: #5956E8;
     color: #fff;
     border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /* header style end */
@@ -64,8 +66,54 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-/* header style start */
-/* header style end */
+/* Banner style start */
+#bannerPart{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    background: #5956E8;
+}
+
+.bannerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerContent h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 80px;
+    width: 501px;
+}
+.bannerContent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+    width: 542px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.bannerContent a{
+    padding: 18px 25px;
+    color: #5956E8;
+    background: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Banner style end */
+
+
+
+
+
+
+
 /* header style start */
 /* header style end */
 /* header style start */
