@@ -1,58 +1,70 @@
 /* common css style start */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
     font-family: "Inter", sans-serif;
     outline: 0;
 }
-ul,ol{
+
+ul,
+ol {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
 
     line-height: 0.8;
 }
-.container{
+
+.container {
     width: 1320px;
     margin: 0 auto;
 }
+
 /* common css style end */
 
 /* header style start */
-#headerPart{
+#headerPart {
     padding: 30px 0;
-   
+
 }
 
-.headerFlex{
+.headerFlex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu ul li{
+.menu ul li {
     display: inline-block;
     padding: 0 15px;
 }
 
-.menu ul li a{
+.menu ul li a {
     color: #181818;
     font-size: 18px;
     font-weight: 500;
     transition: 0.4s;
-    
+
 }
 
-.menu ul li a:hover{
+.menu ul li a:hover {
     color: #5956E8;
 }
 
-.btn a{
+.btn a {
     padding: 18px 25px;
     background: #5956E8;
     color: #fff;
@@ -67,7 +79,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 /* Banner style start */
-#bannerPart{
+#bannerPart {
     padding-top: 200px;
     padding-bottom: 200px;
     padding-left: 0;
@@ -75,19 +87,21 @@ h1,h2,h3,h4,h5,h6,p{
     background: #5956E8;
 }
 
-.bannerFlex{
+.bannerFlex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.bannerContent h1{
+
+.bannerContent h1 {
     font-size: 65px;
     font-weight: 700;
     color: #fff;
     line-height: 80px;
     width: 501px;
 }
-.bannerContent p{
+
+.bannerContent p {
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
@@ -97,7 +111,7 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 45px;
 }
 
-.bannerContent a{
+.bannerContent a {
     padding: 18px 25px;
     color: #5956E8;
     background: #fff;
@@ -115,23 +129,24 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 /* Service style start */
-#servicePart{
+#servicePart {
     padding: 105px 0;
     /* background: lightgray; */
 }
 
-.serviceText{
+.serviceText {
     width: 542px;
     margin: 0 auto;
 }
-.serviceText h3{
+
+.serviceText h3 {
     font-size: 40px;
     color: #181818;
     font-weight: 700;
     text-align: center;
 }
 
-.serviceText p{
+.serviceText p {
     font-size: 16px;
     font-weight: 400;
     color: #181818;
@@ -142,35 +157,37 @@ h1,h2,h3,h4,h5,h6,p{
     padding-bottom: 52px;
 }
 
-.serviceItems{
+.serviceItems {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
-.serviceOne{
+.serviceOne {
     width: 370px;
     height: 385px;
     border: 1px solid #E3E3E3;
     padding-top: 60px;
     padding-left: 48px;
     border-radius: 10px;
+    transition: .7s;
 }
-.serviceOne:hover{
+
+.serviceOne:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
-.serviceOne img{
-    
 
-}
-.serviceOne h4{
+.serviceOne h4 {
     font-size: 25px;
     font-weight: 700;
     color: #181818;
     width: 163px;
     padding: 28px 0;
+    width: 224px;
 }
-.serviceOne p{
+
+.serviceOne p {
     width: 274px;
     font-size: 16px;
     font-weight: 400;
@@ -178,13 +195,84 @@ h1,h2,h3,h4,h5,h6,p{
     color: #181818;
     opacity: 0.7;
 }
+
+.serviceOne:hover svg {
+    fill: #5956E8;
+    stroke: white;
+}
+
 /* Service style end */
 
 
 
 
-/* header style start */
-/* header style end */
+/* portfolio style start */
+#portfolioPart {
+    margin: 20px 0;
+}
+
+.portfolioContent {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+}
+
+.portfolioItem {
+    width: 270px;
+    height: 319px;
+position: relative;
+}
+
+.portfolioItemText {
+    width: 230px;
+    height: 113px;
+    padding: 24px 28px;
+    background: #5956E8;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .7s;
+}
+
+.portfolioItem:hover .portfolioItemText {
+    visibility: visible;
+    opacity: 1;
+}
+
+.portfolioItemText h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolioItemText h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolioItemText i {
+    height: 24px;
+    width: 24px;
+    color: #fff;
+
+    padding-left: 5px;
+}
+
+/* portfolio style end */
+
+
+
+
 /* header style start */
 /* header style end */
 /* header style start */
