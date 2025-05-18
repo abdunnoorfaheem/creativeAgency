@@ -273,10 +273,126 @@ position: relative;
 
 
 
-/* header style start */
-/* header style end */
-/* header style start */
-/* header style end */
+/* Team member style start */
+#teamMemberPart{
+    padding: 50px 0;
+}
+.memberFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.member{
+    width: 370px;
+    height: 444px;
+    position: relative;
+}
+.memberInfo{
+    position: absolute;
+    bottom: 43px;
+    left: 117px;
+     text-align: center;
+}
+.memberInfo h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color:#fff;
+    text-align: center;
+
+}
+.memberInfo h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+     text-align: center;
+      color:#fff;
+}
+/* Team member style end */
+
+
+
+
+/* ratings  style start */
+#ratings{
+   padding: 50px 0;
+}
+.ratingsText{
+    width: 603px;
+    
+}
+.ratingsText h3 {
+    font-size: 40px;
+    color: #181818;
+    font-weight: 700;
+    line-height: 48px;
+    
+}
+.ratingsText p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+    opacity: 0.7;
+    padding-top: 22px;
+    line-height: 27px;
+    padding-bottom: 52px;
+}
+.ratingsFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.ratingsItem{
+    width: 370px;
+    height: 425px;
+    padding: 42px 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+
+}
+.rating i{
+    font-size: 20px;
+    color: #FBBF25;
+    padding: 22px 0;
+}
+.ratingsItem p{
+    width: 274px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #181818;
+    opacity: 0.7;
+}
+.ratingsItem h4{
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #181818;
+    padding-top: 15px;
+    
+}
+.ratingsItem h5{
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #5D5D5D;
+    
+}
+.comaImg{
+    
+    text-align: right;
+    /* padding-bottom: 16px; */
+}
+.comaImg img{
+    
+    width: 63px;
+    height: 46px;
+    
+}
+/* ratings  style end */
+
+
 /* header style start */
 /* header style end */
 /* header style start */
